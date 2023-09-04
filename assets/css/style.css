@@ -1,0 +1,28 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: grey;
+}
+.id-tareas {
+    display: flex;
+    margin-left: 10px;
+    gap: 1rem;
+}
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+h1 {
+    text-align: center;
+}
